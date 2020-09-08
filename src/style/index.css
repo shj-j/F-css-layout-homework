@@ -50,9 +50,7 @@ h3 {
 }
 article {
   width: 60%;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column;
+  column-count: 2;
 }
 .article-section {
   border: 1px solid rgb(86, 86, 86);
