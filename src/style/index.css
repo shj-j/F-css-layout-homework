@@ -20,9 +20,36 @@ ul, li {
 }
 header {
   background-color: black;
-  color: white;
+  color: darkgray;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-aside {
+  /* display: flex;
+  flex-direction: column; */
+}
+h3 {
+  font-style: italic;
+}
+.about {
+  background-color: rgb(238, 238, 238);
+  width: 200px;
+  padding:10px;
+  margin:20px
+}
+.archive {
+  display: flex;
+  /* border:1px solid black; */
+  flex-direction: column;
+  margin:20px;
+  padding:10px;
 }
