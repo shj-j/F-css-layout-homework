@@ -31,12 +31,9 @@ header {
 main {
   display: flex;
   justify-content: space-around;
+  /* margin:20px */
 }
 
-.left-aside {
-  /* display: flex;
-  flex-direction: column; */
-}
 h3 {
   font-style: italic;
 }
@@ -44,12 +41,33 @@ h3 {
   background-color: rgb(238, 238, 238);
   width: 200px;
   padding:10px;
-  margin:20px
+  margin: 20px;
 }
 .archive {
   display: flex;
-  /* border:1px solid black; */
   flex-direction: column;
-  margin:20px;
+  margin: 20px;
+}
+article {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+}
+.article-section {
+  border: 1px solid rgb(86, 86, 86);
+}
+.thumbnail {
+  background-color: rgb(95, 95, 95);
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-detail{
   padding:10px;
+}
+.article-link {
+  color:rgb(48, 125, 248)
 }
