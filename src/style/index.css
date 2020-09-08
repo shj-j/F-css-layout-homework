@@ -18,7 +18,8 @@ ul, li {
   margin: 0;
   padding: 0;
 }
-header {
+
+ul {
   background-color: black;
   color: darkgray;
   height: 40px;
