@@ -97,3 +97,9 @@ article {
   border: none;
   padding: 10px 0;
 }
+footer {
+  background-color: rgb(249, 249, 249);
+  color: gray;
+  text-align: center;
+  padding: 1em;
+}
