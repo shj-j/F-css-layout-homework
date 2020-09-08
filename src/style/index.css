@@ -27,75 +27,81 @@ header {
   justify-content: space-evenly;
 }
 
-
 main {
   display: flex;
   justify-content: space-around;
-  /* margin:20px */
+  margin:20px
 }
 
 h3 {
   font-style: italic;
 }
+.left-aside {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
 .about {
   background-color: rgb(238, 238, 238);
-  width: 200px;
   padding:10px;
-  margin: 20px;
 }
 .archive {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+}
+a {
+  color:rgb(48, 125, 248)
 }
 article {
   width: 60%;
-  column-count: 2;
+  margin-right: 10px;
 }
 .article-section {
   border: 1px solid rgb(86, 86, 86);
+  margin-bottom: 15px;
+  height: fit-content;
 }
 .thumbnail {
   background-color: rgb(95, 95, 95);
   color: white;
-  height: 80px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .article-detail{
-  padding:10px;
-}
-.article-link {
-  color:rgb(48, 125, 248)
+  padding: 0 20px 20px;
 }
 
-.form {
+.right-aside {
   width: 20%;
+  display: flex;
   align-self: center;
 }
 .login-form {
   background-color: rgb(240, 240, 240);
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  padding: 20px
+  align-items: center;
+  padding: 20px;
 }
 
 .login-form input {
   border: 1px solid gray;
   padding: 10px;
+  border-radius: 5px;
 }
 .checkbox-input {
-  align-self: center;
   margin: 10px 0;
 }
 .login-button {
-  background-color: rgb(48, 125, 248);
+  background-color: rgb(56, 128, 243);
   color: white;
   border-radius: 5px;
   border: none;
   padding: 10px 0;
+  width: 100%;
 }
 footer {
   background-color: rgb(249, 249, 249);
